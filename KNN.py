@@ -46,4 +46,4 @@ sc = MinMaxScaler()
 sc.fit_transform(x_ham_veri)
 
 new_prediction = knn.predict(sc.transform(np.array([[6,148,72,35,0,33.6,0.627,50]])))
-new_prediction[0]s
+new_prediction[0]
